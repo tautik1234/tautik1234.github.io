@@ -1,0 +1,90 @@
+.projects-main-window {
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 2%;
+    padding: 1%;
+}
+
+.accordion {
+    background-color:rgb(10, 3, 54);
+    color: white;
+    /*border-radius: 15px;*/
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion-icon {
+    margin-right: 2%;
+}
+
+.accordion-text {
+    margin-left: 1%;
+}
+
+.accordion:hover, .active {
+    background-color: rgb(6,3,27);
+    transition: 0.3s ease-out;
+}
+
+.accordion-dropdown {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    background-color: rgb(6,3,27);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.accordion-dropdown.open {
+    max-height: 1500px;
+}
+
+.cards {
+    max-width: 350px;
+    margin: 2%;
+    border: 1px solid grey;
+    border-radius: 15px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards:hover {
+    transform: scale(102%);
+    transition: 0.3s ease-in-out;
+}
+ 
+.cards .cards-bottom h3 {
+    color: white;
+    margin-left: 3%;
+    max-height: 350px;
+}
+
+.cards .cards-bottom p {
+    color: white;
+    margin: 3%;
+}
+.accordion-dropdown a {
+    text-decoration: none;
+    margin: 2%;
+}
+.thumbnails {
+    width: 350px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 1px solid grey;
+}
+
+/*rgb(6,3,27)*/
