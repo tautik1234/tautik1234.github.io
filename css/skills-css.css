@@ -1,0 +1,41 @@
+.cards {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-out;
+}
+
+.icons-png {
+    width: 115px;
+}
+
+.skills-sub-section-1-content-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards:hover {
+    transform: scale(105%);
+}
+
+.skills-main-section {
+    /*margin-left: 5%;*/
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.skills-sub-section-1-heading {
+    margin-left: 3%;
+}
+
+.skills-sub-section-1-content {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+#github-1 {
+    margin: 0px;
+}
